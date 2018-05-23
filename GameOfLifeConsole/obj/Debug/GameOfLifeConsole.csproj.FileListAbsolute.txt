@@ -1,0 +1,10 @@
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\bin\Debug\GameOfLifeConsole.exe.config
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\bin\Debug\GameOfLifeConsole.exe
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\bin\Debug\GameOfLifeConsole.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\bin\Debug\GameOfLifeKata.dll
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\bin\Debug\GameOfLifeKata.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\obj\Debug\GameOfLifeConsole.csprojAssemblyReference.cache
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\obj\Debug\GameOfLifeConsole.csproj.CoreCompileInputs.cache
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\obj\Debug\GameOfLifeConsole.csproj.CopyComplete
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\obj\Debug\GameOfLifeConsole.exe
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeConsole\obj\Debug\GameOfLifeConsole.pdb

@@ -1,0 +1,12 @@
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\GameOfLifeKataTests.dll
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\GameOfLifeKataTests.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\GameOfLifeKata.dll
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\nunit.framework.dll
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\GameOfLifeKata.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\nunit.framework.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\bin\Debug\nunit.framework.xml
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\obj\Debug\GameOfLifeKataTests.csproj.CoreCompileInputs.cache
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\obj\Debug\GameOfLifeKataTests.csproj.CopyComplete
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\obj\Debug\GameOfLifeKataTests.dll
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\obj\Debug\GameOfLifeKataTests.pdb
+C:\Archive\Projects\GameOfLifeKata\GameOfLifeKataTests\obj\Debug\GameOfLifeKataTests.csprojAssemblyReference.cache
