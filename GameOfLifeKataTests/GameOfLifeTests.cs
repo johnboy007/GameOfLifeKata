@@ -175,7 +175,7 @@ namespace GameOfLifeKataTests
 
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -216,7 +216,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -279,7 +279,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0),
                 new Cell(0, 1, false),
@@ -309,7 +309,7 @@ namespace GameOfLifeKataTests
             }), Is.True);
 
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -349,7 +349,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -391,7 +391,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -421,7 +421,7 @@ namespace GameOfLifeKataTests
             }), Is.True);
 
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -463,7 +463,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -504,7 +504,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -546,7 +546,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),
@@ -587,7 +587,7 @@ namespace GameOfLifeKataTests
             });
             var world = new World(intitialGeneration);
             world.Evolve();
-            Assert.That(world.CellsMatchGeneration(new List<Cell>
+            Assert.That(world.IsGenerationMatch(new List<Cell>
             {
                 new Cell(0, 0, false),
                 new Cell(0, 1, false),

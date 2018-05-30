@@ -6,9 +6,9 @@ namespace GameOfLifeKata
 {
     public class World
     {
-        public Generation CurrentGeneration { get; set; }
+        public Generation CurrentGeneration { get; private set; }
 
-        public int GenerationCounter { get; set; }
+        public int GenerationCounter { get; private set; }
 
         /// <summary>
         ///     Constructor for a new world
@@ -44,9 +44,9 @@ namespace GameOfLifeKata
             CurrentGeneration = new Generation(CurrentGeneration.RowCount, CurrentGeneration.ColumnCount, aliveCells);
         }
 
-        private void UpdateCellsByWorldRules(ref List<Cell> Cells)
+        private void UpdateCellsByWorldRules(ref List<Cell> cells)
         {
-            foreach (var cell in Cells)
+            foreach (var cell in cells)
             {
                 var livingNeighbourCount = GetLivingNeighbourCount(cell);
                 var isAlive = cell.Alive;
@@ -123,7 +123,12 @@ namespace GameOfLifeKata
             return false;
         }
 
-        public bool CellsMatchGeneration(IEnumerable<Cell> Cells)
+        /// <summary>
+        /// Check to see if the Current generation matched the cells passed 
+        /// </summary>
+        /// <param name="Cells"></param>
+        /// <returns></returns>
+        public bool IsGenerationMatch(IEnumerable<Cell> Cells)
         {
             return !(from cell in Cells from cellCurrent in CurrentGeneration.Cells where cell.Row == cellCurrent.Row && cell.Column == cellCurrent.Column where cell.Alive != cellCurrent.Alive select cell).Any();
         }

@@ -7,9 +7,9 @@ namespace GameOfLifeKata
     /// </summary>
     public class Generation
     {
-        public int RowCount { get; set; }
-        public int ColumnCount { get; set; }
-        public List<Cell> Cells { get; set; }
+        public int RowCount { get; private set; }
+        public int ColumnCount { get; private set; }
+        public List<Cell> Cells { get; private set; }
 
         public Generation(int rowCount, int coloumnCount, IReadOnlyCollection<Cell> aliveCells)
         {
@@ -21,6 +21,7 @@ namespace GameOfLifeKata
 
         private void CreateMap(IReadOnlyCollection<Cell> aliveCells)
         {
+            //Create full list of cells
             for (var i = 0; i < RowCount; i++)
             {
                 for (var j = 0; j < ColumnCount; j++)
